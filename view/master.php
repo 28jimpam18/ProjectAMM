@@ -19,7 +19,7 @@
 											</div>
 											<div id="header">
 									<div id="logo">
-									    <h1>   Alborosie</h1>
+									    <h1>Alborosie site</h1>
 									</div>
 								    </div>
 							
