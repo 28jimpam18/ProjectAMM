@@ -1,0 +1,312 @@
+body{
+    background-color: #F0F8FF;
+    font: 15px/20px ‘Bookman Old Style’, Georgia, Garamond, ‘Times New Roman’, Times, serif;
+}
+
+#page{
+    background-color: white;
+}
+
+#header {
+    background-color: #F0ED1F;
+    color: red;
+}
+
+#logo {
+    background-color: #F0ED1F;
+    color: red;	
+}
+
+#footer {
+	background-color: #3ACC23;
+    color: #F0ED1F;
+}
+
+#footer p{
+    display: block; 
+    margin: auto;   
+}
+
+.validator{
+    text-align: center;
+    padding-bottom: 4px;
+	font: 10px/15px ‘Bookman Old Style’, Georgia, Garamond, ‘Times New Roman’, Times, serif;
+}
+
+h2, h3, h4, h5, h6 {
+    color: red;
+    margin: 5px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+//*
+Proprietà dei link
+*/
+a:link{
+    text-decoration: underline;
+    color: #05629c;
+}
+
+a:visited{
+    text-decoration: underline;
+    color: #05629c;
+}
+
+a:hover{
+    font-weight: bold;
+	color: red;
+}
+
+input{
+    border: 1px solid #4169E1;
+}
+
+/*
+Proprietà del bottone Login
+*/
+input[type=submit], button{
+    color: white;
+    background-color: #4169E1;
+    height: 2em;
+    font-weight: bold;
+    border-radius: 1em;
+    border: 1px solid #4169E1;
+    min-width: 85px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+input[type=submit]:hover, button:hover{
+    text-decoration: underline;
+    cursor: pointer;
+	color: #e34242;
+}
+
+label.full{
+    display: inline-block;
+    width: 70%;
+}
+
+label{
+    display: inline-block;
+    width: 30%;
+}
+/*
+Proprietà dell'input dei campi user e password
+*/
+.input-form{
+    line-height: 3em;
+	border-bottom: 3px double #4169E1;
+}
+
+
+.input-form input[type=text], .input-form input[type=password]{
+    display: inline-block;
+    width:59%;
+}
+
+.input-form select{
+    display: inline-block;
+    width:59%;
+    border: 1px solid #4169E1;
+    background-color: #ffffff;
+}
+
+.input-form input[type=submit], .input-form button{
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.btn-group input[type=submit], .btn-group button{
+    display: inline-block;
+}
+
+.btn-group{
+    text-align: center;
+}
+
+/*Decorazione elementi*/
+
+#sidebar1 li {
+    list-style: none;
+}
+
+#sidebar1 ul, #sidebar2 ul{
+    padding-left: 15px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.icon-title{
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    padding-top: 3px;
+    margin-top: 15px;
+}
+
+.xhtml {
+    padding-left: 20px;
+    margin-left: 10px;
+    background: url('/AlborosieSite/images/img19.gif') no-repeat left center;
+}
+
+.css {
+    padding-left: 20px;
+    margin-left: 10px;
+    background: url('/AlborosieSite/images/img20.gif') no-repeat left center;
+}
+
+/* Gestione dispositivi e impaginatura */
+
+@media only screen and (min-width: 1024px) {
+
+
+    #page {
+        width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 25px;
+        margin-bottom:25px;
+        box-shadow: 0 0 10px rgba(0,0,0,.2);
+    }
+
+    #sidebar1 {
+        float: left;
+        width: 19%;
+        padding-left: 0%;
+    }
+
+    #sidebar2 {
+        float: right;
+        width: 19%;
+        padding-right: 0%;
+    }
+
+    #content {
+        margin-left: 21%;
+        margin-right: 21%;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        min-height: 300px;
+    }
+
+}
+
+   /* Barra dei social*/
+
+    .social{
+        width: 100%;
+    }
+
+    .social ul{
+        display: block;
+        float: right;
+        margin-right: 10px;
+    }
+
+    .social ul li{
+        display: inline-block;
+        width: 24px;
+        height: 24px;
+        overflow: hidden;
+
+    }
+
+    .social ul li a:link{
+        color: transparent;
+    }
+
+    #facebook{
+        background-image: url('/AlborosieSite/images/fb.png');
+        background-repeat: no-repeat;
+    }
+
+    #twitter{
+        background-image: url('/AlborosieSite/images/twitter.png');
+        background-repeat: no-repeat;
+    }
+
+    #myspace{
+        background-image: url('/AlborosieSite/images/myspace.png');
+        background-repeat: no-repeat;
+    }
+	
+	#instagram{
+		background-image: url('/AlborosieSite/images/instagram.png');
+        background-repeat: no-repeat;
+    }
+	
+	#header{
+        clear: both;
+    }
+
+    #header{
+        height: 100px;
+        position: relative;
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 900px;
+        left: -20px;
+        border-bottom: 10px solid red;
+        box-shadow: 0 0 10px rgba(0,0,0,.2);
+
+    }
+	
+	#footer{
+		height: 35px;
+        position: relative;
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 900px;
+        left: -20px;
+        border-bottom: 10px solid red;
+        box-shadow: 0 0 10px rgba(0,0,0,.2);
+	}
+
+    #logo{
+        position: absolute;
+    }
+
+    #footer p{
+        position: absolute;
+        margin-top: 10px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 900px;
+    }
+	
+	div#logo h1 {
+        background-image: url('/AlborosieSite/images/logo.png');
+        background-repeat: no-repeat;
+        background-position: center left;
+        height: 100px;
+        vertical-align: middle;
+        padding-left: 100px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        line-height: 100px;
+        color: red;
+        display: block;
+    }
+
+#griglia li  p {
+  padding: 5px 5px 0 5px;
+  margin: 0;
+  font-size: 12px;
+  color: #fff;
+}
+
+#griglia  li {
+  border: 5px solid #333333;
+  display: inline-block;
+  width:  250px;
+  margin: 10px;
+  background: #333333;
+}
