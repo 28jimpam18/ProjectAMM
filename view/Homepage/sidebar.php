@@ -4,7 +4,7 @@
 								<li id="categories">
 								    <h2 class="icon-title">Navigazione</h2>
 												<ul>
-									<li><a href="view/master.php">Home</a></li>
+									<li><a href="http://spano.sc.unica.it/amm2014/pirasCristian/index.php?page=home">Home</a></li>
 								    </ul>
 								</li>
 								<li id="external">
