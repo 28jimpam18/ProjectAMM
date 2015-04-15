@@ -283,7 +283,7 @@ Proprietà dell'input dei campi user e password
     }
 	
 	div#logo h1 {
-        background-image: url('/images/logo.png');
+        background-image: url('../images/logo.png');
         background-repeat: no-repeat;
         background-position: center left;
         height: 100px;
