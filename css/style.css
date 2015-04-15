@@ -152,13 +152,13 @@ Proprietà dell'input dei campi user e password
 .xhtml {
     padding-left: 20px;
     margin-left: 10px;
-    background: url('/AlborosieSite/images/img19.gif') no-repeat left center;
+    background: url('images/img19.gif') no-repeat left center;
 }
 
 .css {
     padding-left: 20px;
     margin-left: 10px;
-    background: url('/AlborosieSite/images/img20.gif') no-repeat left center;
+    background: url('images/img20.gif') no-repeat left center;
 }
 
 /* Gestione dispositivi e impaginatura */
@@ -222,22 +222,22 @@ Proprietà dell'input dei campi user e password
     }
 
     #facebook{
-        background-image: url('/AlborosieSite/images/fb.png');
+        background-image: url('images/fb.png');
         background-repeat: no-repeat;
     }
 
     #twitter{
-        background-image: url('/AlborosieSite/images/twitter.png');
+        background-image: url('images/twitter.png');
         background-repeat: no-repeat;
     }
 
     #myspace{
-        background-image: url('/AlborosieSite/images/myspace.png');
+        background-image: url('images/myspace.png');
         background-repeat: no-repeat;
     }
 	
 	#instagram{
-		background-image: url('/AlborosieSite/images/instagram.png');
+		background-image: url('images/instagram.png');
         background-repeat: no-repeat;
     }
 	
@@ -283,7 +283,7 @@ Proprietà dell'input dei campi user e password
     }
 	
 	div#logo h1 {
-        background-image: url('/AlborosieSite/images/logo.png');
+        background-image: url('images/logo.png');
         background-repeat: no-repeat;
         background-position: center left;
         height: 100px;
