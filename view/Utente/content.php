@@ -6,5 +6,5 @@
 							E' possibile in questo sito consultare una breve biografia dell'artista, 
 							visitare lo STORE non ufficiale ed ascoltare alcuni dei suoi brani. </br></br></br>
 						</div>
-						<iframe width="560" height="315" src="https://www.youtube.com/embed/MYp_gJQwRx8" frameborder="0" allowfullscreen></iframe>
+						<iframe width="560" height="315" src="https://www.youtube.com/watch?v=4Ois3zB7SJ4" frameborder="0" allowfullscreen></iframe>
 					</div>	
